@@ -802,7 +802,7 @@ h2 {
     .nav {
         flex-direction: column;
         gap: 0.5rem;
-        display: none;
+        /*display: none;*/
     }
     
     .novedades-grid {
