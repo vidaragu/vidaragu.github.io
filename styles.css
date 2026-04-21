@@ -1048,6 +1048,11 @@ h2 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media screen and (max-width: 768px) {
+    header {
+      display: none !important;
+    }
+}
 
 /*ultimo responsive comentario*/
 
