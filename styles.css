@@ -875,7 +875,6 @@ h2 {
         grid-template-columns: repeat(5, 1fr);
     }
     
-    }
 }
 
 @media (min-width: 1440px) {
@@ -883,7 +882,6 @@ h2 {
         padding: 4rem 2rem;
     }
     
-    }
     
     .product-grid {
         grid-template-columns: repeat(5, 1fr);
@@ -893,8 +891,6 @@ h2 {
 @media (min-width: 1920px) {
     body {
         font-size: 18px;
-    }
-    
     }
     
     section {
@@ -913,7 +909,6 @@ h2 {
         max-width: 2000px;
     }
     
-    }
     
     .product-grid {
         grid-template-columns: repeat(7, 1fr);
@@ -925,7 +920,6 @@ h2 {
         font-size: 24px;
     }
     
-    }
     
     section {
         max-width: 3000px;
