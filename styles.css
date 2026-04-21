@@ -1048,8 +1048,17 @@ h2 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* se agrego este bloque para poder borrar el header en pantallas chicas*/
+
 @media screen and (max-width: 768px) {
     header {
+      display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .novedades {
       display: none !important;
     }
 }
