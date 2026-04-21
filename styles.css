@@ -55,7 +55,7 @@ h3 {
 }
 
 .header {
-    position: sticky;
+    /*position: sticky;*/
     top: 0;
     z-index: 1000;
     background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
