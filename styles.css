@@ -802,6 +802,7 @@ h2 {
     .nav {
         flex-direction: column;
         gap: 0.5rem;
+        display: none;
     }
     
     .novedades-grid {
@@ -824,6 +825,7 @@ h2 {
 @media (min-width: 768px) {
     .nav {
         flex-wrap: nowrap;
+        display: none;
     }
     
     .novedades-grid {
