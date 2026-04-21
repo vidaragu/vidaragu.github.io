@@ -805,7 +805,7 @@ h2 {
         /*display: none;*/
     }
     .header {
-        position: block;
+        position: none;
     
     }
     .novedades-grid {
@@ -819,7 +819,7 @@ h2 {
     }
 
     .header {
-        position: block;
+        position: none;
     
     }
 }
@@ -830,7 +830,7 @@ h2 {
     }
 
     .header {
-        position: block;
+        position: none;
     
     }
 }
@@ -842,7 +842,7 @@ h2 {
     }
 
     .header {
-        position: block;
+        position: none;
     
     }
     
@@ -861,7 +861,7 @@ h2 {
     }
 
     .header {
-        position: block;
+        position: none;
     
     }
     
@@ -874,9 +874,6 @@ h2 {
     .product-grid {
         grid-template-columns: repeat(5, 1fr);
     }
-
-    .header {
-        position: block;
     
     }
 }
@@ -885,9 +882,6 @@ h2 {
     section {
         padding: 4rem 2rem;
     }
-
-    .header {
-        position: block;
     
     }
     
@@ -900,9 +894,6 @@ h2 {
     body {
         font-size: 18px;
     }
-
-    .header {
-        position: block;
     
     }
     
@@ -921,9 +912,6 @@ h2 {
     section {
         max-width: 2000px;
     }
-
-    .header {
-        position: block;
     
     }
     
@@ -936,9 +924,6 @@ h2 {
     body {
         font-size: 24px;
     }
-
-    .header {
-        position: block;
     
     }
     
