@@ -1057,6 +1057,8 @@ h2 {
     }
 }
 
+/* se agrego para sacar en pantallas chicas el menu novedades*/
+
 @media screen and (max-width: 768px) {
     .novedades {
       display: none !important;
