@@ -285,32 +285,4 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-
-    //JS - Control del menú
-function toggleMenu() {
-  const btn = document.querySelector('.btn-hamburguesa');
-  const menu = document.getElementById('menuMobile');
-  const overlay = document.querySelector('.menu-overlay');
-  const body = document.body;
- 
-  const estaAbierto = menu.classList.contains('abierto');
- 
-  btn.classList.toggle('activo');
-  menu.classList.toggle('abierto');
-  overlay.classList.toggle('activo');
-  body.classList.toggle('menu-abierto');
- 
-  // Accesibilidad
-  btn.setAttribute('aria-expanded', !estaAbierto);
-}
-
-// Cerrar con tecla ESC
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    const menu = document.getElementById('menuMobile');
-    if (menu.classList.contains('abierto')) {
-      toggleMenu();
-    }
-  }
-});
 });
